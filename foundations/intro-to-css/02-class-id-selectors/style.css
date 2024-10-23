@@ -1,0 +1,22 @@
+p{
+    background-color: #ff8888;
+    font-family: sans-serif;
+}
+
+div{
+    font-family: serifß;
+}
+
+.extra-bold {
+    font-size: 36pt;
+    color: blue;
+}
+
+.bold {
+    font-size: 32pt;
+    background-color: lime;
+}
+
+#cooler-class {
+    font-size: 28px;
+}
