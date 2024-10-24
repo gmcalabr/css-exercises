@@ -1,0 +1,26 @@
+/* notes */
+
+.alert-text {
+    color: red;
+}
+
+/* class="alert-text" will be red */
+
+.read,
+.unread {
+    color: white;
+}
+
+/* both class="read" and unread will look the same, white text */
+
+.subsection.header {
+    color: blue;
+}
+
+/* blue applies to class="subsection header" but not class="subsection preview" */
+
+.ancestor .contents {
+    color: green;
+}
+
+/* green applies to <div class="ancestor"><div class="contents">green</div></div> and <div class="ancestor"><div class="contents"><div class="contents">green</div></div></div> but not <div class="ancestor">black</div> or <div class="contents">black</div> */

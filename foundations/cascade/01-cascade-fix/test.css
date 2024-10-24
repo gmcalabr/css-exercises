@@ -1,0 +1,9 @@
+/* styles.css */
+
+* {
+    color: blue;
+}
+
+.ancestor .contents {
+    background-color: green;
+}
